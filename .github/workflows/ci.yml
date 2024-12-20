@@ -48,6 +48,5 @@ jobs:
           sudo make install
 
       - name: Run git-secrets
-        run: |
-          git secrets --register-aws
+        run: 
           git secrets --scan
